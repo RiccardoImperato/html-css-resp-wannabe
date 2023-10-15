@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -129,10 +129,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media screen and (max-width:769px) {
+    .container {
+        width: 768px;
+    }
+}
 
 @media screen and (max-width: 481px) {
 
     .container {
+        width: 480px;
         padding: 3.5rem;
     }
 
