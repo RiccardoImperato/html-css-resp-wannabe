@@ -129,43 +129,30 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (min-width:769px) and (max-width:1160px) {
+@media screen and (max-width:1140px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
 }
 
-@media screen and (max-width:769px) {
-    .container {
-        width: 100vw;
-    }
-}
-
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 480px) {
 
     .container {
-        width: 100vw;
         padding: 3.5rem;
     }
 
     .row {
-        display: flex;
         flex-direction: column;
-        align-items: center;
+        gap: 4rem;
     }
 
     .container .row .col {
         width: 100%;
     }
 
-    .container .row .col .card,
-    .container .row .col.col-left {
-        margin-bottom: 3rem;
-    }
-
-    .steps.text-center {
-        margin: 0;
-        padding: 0;
+    .steps,
+    .why-us {
+        margin-bottom: 0;
     }
 
     .why-us {
